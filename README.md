@@ -147,6 +147,9 @@ This project performs an Exploratory Data Analysis (EDA) on global COVID-19 tren
 ## 🔍 Queries & Insights <a name="queries"></a>
 
 
+> 📁 [View complete SQL code here](/covid19_analysis_queries.sql)
+
+
 Q1.-- What is the case fatality rate (CFR) in the top 10 countries most affected by COVID-19 by total number of confirmed cases?
 
 QUERIES: lines 32-46
