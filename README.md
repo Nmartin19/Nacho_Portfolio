@@ -73,7 +73,7 @@ This analysis explores how vaccination programs influenced case and death rates 
   - **COVIDvaccinations.xlsx** (85,172 rows): Vaccination administration data
 
 
-### Processing Steps:
+### ⚙️ Processing Steps:
 
 
 - Unnecessary columns removed in excel
@@ -89,56 +89,56 @@ This analysis explores how vaccination programs influenced case and death rates 
 ## 📖 Data Dictionary <a name="data-dictionary"></a>
 
 
-* Key fields used in the analysis:
+  * Key fields used in the analysis:
 
-  - CovidDeaths.xlsx:
+     - CovidDeaths.xlsx:
 
-    • location (nvarchar): geographic location (world, continents, countries)
-    • date (datetime): date of observation.
-    • population (float): Total population
-    • new_cases (float): daily count of new confirmed COVID-19 cases
-    • new_deaths (float): daily count of new COVID-19 deaths
+           • location (nvarchar): geographic location (world, continents, countries)
+           • date (datetime): date of observation.
+           • population (float): Total population
+           • new_cases (float): daily count of new confirmed COVID-19 cases
+           • new_deaths (float): daily count of new COVID-19 deaths
 
-    Other key fields
+       Other key fields
 
-    • total_cases (float): running total of confirmed COVID-19 cases
-    • total_deaths (float): running total of COVID-19 deaths
+           • total_cases (float): running total of confirmed COVID-19 cases
+           • total_deaths (float): running total of COVID-19 deaths
 
- - CovidVaccinations.xlsx:
+    - CovidVaccinations.xlsx:
 
-    • location (nvarchar): geographic location (world, continents, countries)
-    • date (datetime): date of observation
-    • population (float): total population
-    • people_vaccinated (float): Running total of people who received at least one vaccine dose 
+          • location (nvarchar): geographic location (world, continents, countries)
+          • date (datetime): date of observation
+          • population (float): total population
+          • people_vaccinated (float): Running total of people who received at least one vaccine dose 
 
-    Other key fields
+      Other key fields
 
-    • total_vaccinations (float): running total of vaccine doses administered
-    • new_vaccinations (float): daily count of vaccine doses administered 
-    • people_fully_vaccinated (float): running total of people who completed vaccination protocol
-    • new_test (nvarchar): Daily count of new COVID-19 tests
-    • total_test (nvarchar): Running total of COVID-19 tests
-    • median_age (float): Median age of population
-    • handwashing_facilitites (float): percentage of population with basic handwashing facilities
-    • hospital_beds_per_thousand (float): number of hospital beds per 1,000 people
+          • total_vaccinations (float): running total of vaccine doses administered
+          • new_vaccinations (float): daily count of vaccine doses administered 
+          • people_fully_vaccinated (float): running total of people who completed vaccination protocol
+          • new_test (nvarchar): Daily count of new COVID-19 tests
+          • total_test (nvarchar): Running total of COVID-19 tests
+          • median_age (float): Median age of population
+          • handwashing_facilitites (float): percentage of population with basic handwashing facilities
+          • hospital_beds_per_thousand (float): number of hospital beds per 1,000 people
 
 
 ## ❓ Key Questions for Data Exploration <a name="key-questions"></a>
 
 
-Q1.-- What is the case fatality rate (CFR) in the top 10 countries most affected by COVID-19 by total number of confirmed cases?
+    Q1. What is the case fatality rate (CFR) in the top 10 countries most affected by COVID-19 by total number of confirmed cases?
 
-Q2.-- What are the top 10 countries with the highest number of confirmed cases and deaths, both in absolute terms and relative for population size?
+    Q2. What are the top 10 countries with the highest number of confirmed cases and deaths, both in absolute terms and relative for population size?
 
-Q3.-- Which are the top 10 countries with the highest confirmed case rate per population?
+    Q3. Which are the top 10 countries with the highest confirmed case rate per population?
 
-Q4.-- How have the monthly averages of total confirmed cases and deaths evolved from January 2020 to April 2021 in the top 10 most affected countries?
+    Q4. How have the monthly averages of total confirmed cases and deaths evolved from January 2020 to April 2021 in the top 10 most affected countries?
 
-Q5.-- What trends are observed in new cases and deaths from January 2020 to April 2021, and how do they align with the vaccine rollout timeline?
+    Q5. What trends are observed in new cases and deaths from January 2020 to April 2021, and how do they align with the vaccine rollout timeline?
 
-Q6.-- How did the percentage change in newly vaccinated people compare to percentage changes in new cases and deaths by country (December 2020 - April 2021)?
+    Q6. How did the percentage change in newly vaccinated people compare to percentage changes in new cases and deaths by country (December 2020 - April 2021)?
 
-Q7.-- What are the total numbers and percentages of vaccinated versus unvaccinated populations in the top 10 countries?
+    Q7. What are the total numbers and percentages of vaccinated versus unvaccinated populations in the top 10 countries?
 
 
 
