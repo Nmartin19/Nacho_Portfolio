@@ -39,27 +39,27 @@ This analysis explores how vaccination programs influenced case and death rates 
 ## 🎯 Scope & Project Aims <a name="scope"></a>
 
 
-* This project performs an Exploratory Data Analysis (EDA) on global COVID-19 trends, analyzing:
+    * This project performs an Exploratory Data Analysis (EDA) on global COVID-19 trends, analyzing:
 
-  - Case fatality rates in most affected countries
+      - Case fatality rates in most affected countries
 
-  - Vaccination impact on cases and deaths
+      - Vaccination impact on cases and deaths
 
-  - Population-adjusted metrics
+      - Population-adjusted metrics
 
-  - Temporal evolution of the pandemic
+      - Temporal evolution of the pandemic
 
 
 ## 📂 Data Source <a name="data-source"></a>
 
 
-- Source: ourworldindata.org
+    - Source: ourworldindata.org
 
-- Dataset: Available through [Alex the Analyst's GitHub repository](https://bit.ly/3xNwzGK)
+    - Dataset: Available through [Alex the Analyst's GitHub repository](https://bit.ly/3xNwzGK)
 
-- Time period: January 2020 - April 2021
+    - Time period: January 2020 - April 2021
 
-- Coverage: 219 different locations (world, continents, and countries)
+    - Coverage: 219 different locations (world, continents, and countries)
 
 
 
@@ -149,13 +149,13 @@ Q1.-- What is the case fatality rate (CFR) in the top 10 countries most affected
 
 QUERIES: lines 32-46
 
-  • Italy, the United Kingdom, and Brazil have the highest CFRs among the top 10 countries, with rates of 3.00%, 2.88%, and 2.75%, respectively, indicating a significant risk of death for infected individuals.
+    • Italy, the United Kingdom, and Brazil have the highest CFRs among the top 10 countries, with rates of 3.00%, 2.88%, and 2.75%, respectively, indicating a significant risk of death for infected individuals.
 
-  • Germany, Russia, and Spain have CFRs of 2.44%, 2.28%, and 2.22%, suggesting lower but still notable risks compared to the leaders.
+    • Germany, Russia, and Spain have CFRs of 2.44%, 2.28%, and 2.22%, suggesting lower but still notable risks compared to the leaders.
 
-  • France, the United States, India, and Turkey round out the list of the top 10 countries with the highest CFRs, demonstrating varying levels of risk across different countries.
+    • France, the United States, India, and Turkey round out the list of the top 10 countries with the highest CFRs, demonstrating varying levels of risk across different countries.
 
-  • Overall, Italy, the UK, and Brazil exhibit the highest probabilities of death for COVID-19 infections, emphasizing the severity of the situation in these countries.
+    • Overall, Italy, the UK, and Brazil exhibit the highest probabilities of death for COVID-19 infections, emphasizing the severity of the situation in these countries.
 
 
 
@@ -163,17 +163,17 @@ Q2.--  What are the top 10 countries with the highest number of confirmed cases 
 
 QUERY: lines 65-83
 
-  • Countries leading in absolute numbers don't necessarily show the highest rates when adjusted for population size.
+    • Countries leading in absolute numbers don't necessarily show the highest rates when adjusted for population size.
 
-  • Covid-19 caused severe impact in Italy which shows the highest mortality rate (0.20%) despite ranking 5th in confirmed cases (6.65%). 
+    • Covid-19 caused severe impact in Italy which shows the highest mortality rate (0.20%) despite ranking 5th in confirmed cases (6.65%). 
 
-  • Similarly, United Kingdom shows 2nd highest mortality rate (0.19%, tied with Brazil) despite ranking 6th in confirmed cases (6.53%). 
+    • Similarly, United Kingdom shows 2nd highest mortality rate (0.19%, tied with Brazil) despite ranking 6th in confirmed cases (6.53%). 
 
-  • Other notable cases are United States (1st in case rate with 9.77%) and 2nd in mortality rate (0.17% tied with Spain), and Spain (3rd in case rate 7.54% and 2nd in mortality rate (0.17%)).
+    • Other notable cases are United States (1st in case rate with 9.77%) and 2nd in mortality rate (0.17% tied with Spain), and Spain (3rd in case rate 7.54% and 2nd in mortality rate (0.17%)).
 
-  • France shows different pattern with confirmed case rate of 8.33% (2nd) but ranks 6th in mortality rate (0.15%).
+    • France shows different pattern with confirmed case rate of 8.33% (2nd) but ranks 6th in mortality rate (0.15%).
 
-  • Lower mortality rates in countries like India (despite high absolute numbers) might indicate potential underreporting and/or Demographic advantages (e.g., younger population)
+    • Lower mortality rates in countries like India (despite high absolute numbers) might indicate potential underreporting and/or Demographic advantages (e.g., younger population)
 
 
 
@@ -181,15 +181,15 @@ Q3.-- Which are the top 10 countries with the highest confirmed case rate per po
 
 QUERY: lines 98-114
 
-  • Among the top 10 countries by total confirmed cases, only the United States appears in the top 10 (ranking 9th) for the percentage of the population confirmed positive (9.77%).
+    • Among the top 10 countries by total confirmed cases, only the United States appears in the top 10 (ranking 9th) for the percentage of the population confirmed positive (9.77%).
 
-  • Andorra leads this ranking with a confirmed case rate of 17.13%. This means that 17.13% of the Andorra's population (13.232 out of 77265) was confirmed (or tested) as positive of Covid.
+    • Andorra leads this ranking with a confirmed case rate of 17.13%. This means that 17.13% of the Andorra's population (13.232 out of 77265) was confirmed (or tested) as positive of Covid.
 
-  • Within these countries, San Marino and Czechia shows the highest mortality rates (0.27% of population), followed by Montenegro (0.24%) and Slovenia (0.20%). The United States ranks 5th with a mortality rate of 0.17%.
+    • Within these countries, San Marino and Czechia shows the highest mortality rates (0.27% of population), followed by Montenegro (0.24%) and Slovenia (0.20%). The United States ranks 5th with a mortality rate of 0.17%.
 
-  • This analysis highlights the significant impact of COVID-19 in the United States, where one might expect a lower proportion of positive cases compared to countries with smaller populations like Andorra or San Marino.
+    • This analysis highlights the significant impact of COVID-19 in the United States, where one might expect a lower proportion of positive cases compared to countries with smaller populations like Andorra or San Marino.
 
-  • The high confirmed case rate in the U.S., despite its large population, indicates particularly widespread transmission of the virus. 
+    • The high confirmed case rate in the U.S., despite its large population, indicates particularly widespread transmission of the virus. 
 
 
 
@@ -197,7 +197,7 @@ Q4.-- How have the monthly averages of total confirmed cases and deaths evolved 
 
 QUERY: Lines 130 - 158
 
-  * Between January 2020 and April 2021, distinct COVID-19 waves were observed globally.
+    * Between January 2020 and April 2021, distinct COVID-19 waves were observed globally.
 
      - The first wave began in March and April 2020, followed by a summer decline in most regions. 
 
@@ -230,25 +230,29 @@ Q5.-- What trends are observed in new cases and deaths from January 2020 to Apri
 
 QUERY: Lines 177 - 215
 
-  - Western nations (except Italy) demonstrated a clear pattern: as vaccination rates increased, monthly deaths decreased. 
+    - Western nations (except Italy) demonstrated a clear pattern: as vaccination rates increased, monthly deaths decreased. 
 
-     • This trend was particularly evident in France, Germany, Spain, UK and US, where vaccination programs coincided with declining new monthly deaths, despite varying infection levels. 
+       • This trend was particularly evident in France, Germany, Spain, UK and US, where vaccination programs coincided with declining new monthly deaths, despite varying infection levels. 
 
-     • France presents a particular interesting case, where the increase in new people vaccinated coincided with a decrease in deaths, despite a significant increase in new confirmed cases. 
+       • France presents a particular interesting case, where the increase in new people vaccinated coincided with a decrease in deaths, despite a significant increase in new confirmed cases. 
 
-     • The case of westerns nations, and especially France, demonstrates the positive effect of vaccine administration in reducing mortality among confirmed cases. 
-
-
- - Notable exceptions emerged in several countries. 
-
-     • Italy, deviated from the trend observed in other Western European countries, experiencing an increase in deaths from 9,183 to 11,647 between February and March 2021. 
-
-     • Additionally, concerning patterns were observed in Brazil, India, and Turkey, where despite ongoing vaccination efforts, outcomes were less favorable, suggesting impacts from healthcare capacity limitations and the presence of virus variants.
+       • The case of westerns nations, and especially France, demonstrates the positive effect of vaccine administration in reducing mortality among confirmed cases. 
 
 
- - The data indicates that vaccination programs played a crucial role in reducing deaths, likely because they were complemented by strong public health measures. However, the degree of success varied significantly due to differences in healthcare infrastructure and implementation timing.
+    - Notable exceptions emerged in several countries. 
 
- *Note: These patterns are observational and would require statistical analysis to establish definitive causation.*
+       • Italy, deviated from the trend observed in other Western European countries, experiencing an increase in deaths from 9,183 to 11,647 between February and March 2021. 
+
+       • Additionally, concerning patterns were observed in Brazil, India, and Turkey, where despite ongoing vaccination efforts, outcomes were less favorable, suggesting impacts from healthcare capacity limitations and the presence of virus variants.
+
+
+    - Vaccination success varied by country:
+
+       • Most effective when combined with strong public health measures
+
+       • Results differed based on healthcare infrastructure and timing
+
+    *Note: These patterns are observational and would require statistical analysis to establish definitive causation.*
 
 
 
@@ -256,26 +260,31 @@ Q6:-- How did the percentage change in newly vaccinated people compare to percen
 
 QUERY: Lines 233 - 272
 
-  * The analysis from December 2020 to April 2021 reveals two distinct vaccination impact patterns across countries. 
+    * The analysis from December 2020 to April 2021 reveals two distinct vaccination impact patterns across countries. 
 
-    - Several nations showed clear vaccination success: 
+      - Several nations showed clear vaccination success: 
 
-      • France reduced deaths by 28% despite rising cases (+109%), while implementing a substantial vaccination campaign (+484000%).
+        • France reduced deaths by 28% despite rising cases (+109%), while implementing a substantial vaccination campaign (+484000%).
  
-      • Germany reduced deaths by 57% despite 34% increase in confirmed cases during its vaccination campaign (+1271% new people vaccinated). 
+        • Germany reduced deaths by 57% despite 34% increase in confirmed cases during its vaccination campaign (+1271% new people vaccinated). 
 
-      • Similarly, the United States and United Kingdom achieved significant decreases in both cases and deaths alongside successful vaccination programs.
-
-
-   - However, some countries faced different outcomes:
-
-      • India experienced dramatic increases across all metrics, with cases rising by 672% and deaths by 756%, despite vaccination growth of 735%. 
-
-      • Brazil and Turkey showed similar trends, with both countries seeing increases in cases and deaths despite significant vaccination progress.
+        • Similarly, the United States and United Kingdom achieved significant decreases in both cases and deaths alongside successful vaccination programs.
 
 
-  * These contrasting results suggest that while vaccination was crucial in reducing COVID-19 mortality, its effectiveness varied significantly across countries, likely depending on factors such as healthcare capacity, public health measures, and local epidemiological conditions.
+     - However, some countries faced different outcomes:
 
+        • India experienced dramatic increases across all metrics, with cases rising by 672% and deaths by 756%, despite vaccination growth of 735%. 
+
+        • Brazil and Turkey showed similar trends, with both countries seeing increases in cases and deaths despite significant vaccination progress.
+
+
+    * - Vaccination effectiveness varied by country, influenced by:
+
+       • Healthcare capacity
+
+       • Public health measures
+
+       • Local conditions
 
 
 
@@ -343,38 +352,38 @@ Query: Lines 289 - 306
 ## 💡 Data-Driven Recommendations <a name="recommendations"></a>
 
 
-   • Set up real-time alert systems monitoring both absolute numbers and population-adjusted rates (cases/population), using historical data from successful countries as benchmark thresholds for early intervention.
+    • Set up real-time alert systems monitoring both absolute numbers and population-adjusted rates (cases/population), using historical data from successful countries as benchmark thresholds for early intervention.
 
-   • Prioritize resource distribution (vaccines, medical supplies, personnel) based on a composite index combining population density, healthcare infrastructure capacity, and current Case Fatality Rates.
+    • Prioritize resource distribution (vaccines, medical supplies, personnel) based on a composite index combining population density, healthcare infrastructure capacity, and current Case Fatality Rates.
 
-   • Track pandemic response effectiveness using a combined metric of vaccination rates, death reduction, and healthcare system capacity, using successful cases like France (28% death reduction despite rising cases) as benchmarks.
+    • Track pandemic response effectiveness using a combined metric of vaccination rates, death reduction, and healthcare system capacity, using successful cases like France (28% death reduction despite rising cases) as benchmarks.
 
-   • Develop predictive risk models combining population metrics, healthcare capacity, and epidemiological data to identify vulnerable regions before they reach critical levels
+    • Develop predictive risk models combining population metrics, healthcare capacity, and epidemiological data to identify vulnerable regions before they reach critical levels
 
 
 
 ## 🔄 Limitations & Future Scope <a name="limitations"></a>
 
 
-- Data Limitations
+    - Data Limitations
 
-  • Time frame constraints: Limited to January 2020 - April 2021, with vaccination data only available from December 2020
+      • Time frame constraints: Limited to January 2020 - April 2021, with vaccination data only available from December 2020
 
-  • Data reliability: Potential underreporting and varying testing capacities across countries affect data quality
+      • Data reliability: Potential underreporting and varying testing capacities across countries affect data quality
 
-- Future Scope
+    - Future Scope
 
-  • Comprehensive healthcare analysis: Investigate relationship between healthcare infrastructure (hospital beds, facilities) and COVID-19 outcomes
+      • Comprehensive healthcare analysis: Investigate relationship between healthcare infrastructure (hospital beds, facilities) and COVID-19 outcomes
 
-  • Demographic impact study: Analyze how population characteristics (age, density) influenced mortality and transmission rates
+      • Demographic impact study: Analyze how population characteristics (age, density) influenced mortality and transmission rates
 
-  • Enhanced statistical approach: Develop statistical models to establish causation and create standardized metrics for cross-country comparison
+      • Enhanced statistical approach: Develop statistical models to establish causation and create standardized metrics for cross-country comparison
 
 
 
 ## 📈 Visualizations
 
-Coming soon! 
+    Coming soon! 
 
 
 ## 👨‍💻 About Me
