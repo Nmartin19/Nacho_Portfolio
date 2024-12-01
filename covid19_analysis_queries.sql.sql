@@ -192,7 +192,7 @@ From (
 	    V.people_vaccinated as Running_total_people_vaccinated,
             ABS((V.people_vaccinated - LAG(V.people_vaccinated) OVER (Partition by format(D.date, 'yy-MM') ORDER BY format(D.date, 'yy-MM')))) as new_people_vaccinated
 	                                -- LAG retrieves the value from the previous month in column V.people_vaccinated to calculate how many new people were vaccinated.
-	                                -- Since V.people_vaccinated column is a cumulative total, we subtract the previous month's value from the current one to get the number of new people vaccinated for that month.
+	                                -- Since V.people_vaccinated column is a running total, we subtract the previous month's value from the current one to get the number of new people vaccinated for that month.
 	                                -- ABS ensures the result is positive, avoiding any negative values from the difference.
       From PortfolioProject..CovidDeaths D
       JOIN PortfolioProject..CovidVaccinations V ON D.location = V.location AND D.date = V.date
