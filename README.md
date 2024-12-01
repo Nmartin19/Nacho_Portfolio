@@ -1,4 +1,4 @@
-# 🌍 Exploratory Data Analysis (EDA) on COVID-19 World Trends
+# 🦠 Exploratory Data Analysis (EDA) on COVID-19 World Trends
 
 
 ## 📊 Quick Overview
@@ -14,10 +14,6 @@ This analysis explores how vaccination programs influenced case and death rates 
 <img src="https://upload.wikimedia.org/wikipedia/commons/3/34/Microsoft_Office_Excel_%282019%E2%80%93present%29.svg" alt="Excel" width="45" height="45"/>
 <img src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" alt="Git" width="45" height="45"/>
 </p>
-
-![SQL Server](https://img.shields.io/badge/-SQL%20Server-CC2927?style=flat&logo=microsoft-sql-server&logoColor=white)
-![Excel](https://img.shields.io/badge/-Excel-217346?style=flat&logo=microsoft-excel&logoColor=white)
-![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white)
 
 
 ## 📌 Table of Contents
