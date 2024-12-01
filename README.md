@@ -152,7 +152,7 @@ This project performs an Exploratory Data Analysis (EDA) on global COVID-19 tren
 
 Q1.-- What is the case fatality rate (CFR) in the top 10 countries most affected by COVID-19 by total number of confirmed cases?
 
-QUERIES: lines 32-46
+QUERY: lines 32-46
 
     • Italy, the United Kingdom, and Brazil have the highest CFRs among the top 10 countries, with rates of 3.00%, 2.88%, and 2.75%, respectively, indicating a significant risk of death for infected individuals.
 
