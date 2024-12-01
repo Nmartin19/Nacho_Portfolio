@@ -39,7 +39,7 @@ This analysis explores how vaccination programs influenced case and death rates 
 ## 🎯 Scope & Project Aims <a name="scope"></a>
 
 
-    * This project performs an Exploratory Data Analysis (EDA) on global COVID-19 trends, analyzing:
+   * This project performs an Exploratory Data Analysis (EDA) on global COVID-19 trends, analyzing:
 
       - Case fatality rates in most affected countries
 
@@ -53,13 +53,13 @@ This analysis explores how vaccination programs influenced case and death rates 
 ## 📂 Data Source <a name="data-source"></a>
 
 
-    - Source: ourworldindata.org
+   - Source: ourworldindata.org
 
-    - Dataset: Available through [Alex the Analyst's GitHub repository](https://bit.ly/3xNwzGK)
+   - Dataset: Available through [Alex the Analyst's GitHub repository](https://bit.ly/3xNwzGK)
 
-    - Time period: January 2020 - April 2021
+   - Time period: January 2020 - April 2021
 
-    - Coverage: 219 different locations (world, continents, and countries)
+   - Coverage: 219 different locations (world, continents, and countries)
 
 
 
