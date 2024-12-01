@@ -74,7 +74,7 @@ Select
 	 ROUND(SUM(new_cases) / population * 100, 2) as confirmed_case_rate_per_population,    -- Using "confirmed case rate" instead of "infection rate". "infection rate" includes both confirmed and unconfirmed cases, which is imprecise.
 	 SUM(new_deaths) as total_deaths, 
 	 ROUND(SUM(new_deaths) / population * 100, 2) as Mortality_rate_per_population,    --  Simple mortality rate: deaths/population - does not consider infection spread
-     ROUND((SUM(new_deaths) / SUM(new_cases)) * (SUM(new_cases) / population), 4) as Population_adjusted_mortality_rate  -- Combined metric that considers case fatality rate (deaths/cases) and confirmed case rate (cases/population), which measures disease severity and disease spread, respectively.
+         ROUND((SUM(new_deaths) / SUM(new_cases)) * (SUM(new_cases) / population), 4) as Population_adjusted_mortality_rate  -- Combined metric that considers case fatality rate (deaths/cases) and confirmed case rate (cases/population), which measures disease severity and disease spread, respectively.
 From PortfolioProject..CovidDeaths
 Where continent is not null
 GROUP BY location, population
@@ -103,7 +103,7 @@ Select
 	 population, 
 	 SUM(new_cases) as Total_confirmed_cases, 
 	 ROUND(SUM(new_cases) / population * 100, 2) as confirmed_case_rate_per_population, 
-     SUM(new_deaths) as total_deaths, 
+         SUM(new_deaths) as total_deaths, 
 	 ROUND(SUM(new_deaths) / population * 100, 2) as Mortality_rate_per_population,
      ROUND((SUM(new_deaths) / SUM(new_cases)) * (SUM(new_cases) / population), 4) as Population_adjusted_mortality_rate
 From PortfolioProject..CovidDeaths
@@ -137,9 +137,9 @@ Select
 	  AVG_new_deaths
 FROM (
       Select 
-	        location, 
-		    format(date, 'yy-MM') as year_month, 
-		    ROUND(AVG(new_cases), 0) as AVG_new_cases, 
+	    location, 
+	    format(date, 'yy-MM') as year_month, 
+	    ROUND(AVG(new_cases), 0) as AVG_new_cases, 
             ROUND(AVG(new_deaths), 0) as AVG_new_deaths
       From PortfolioProject..CovidDeaths
       Where continent is not null 
@@ -147,8 +147,8 @@ FROM (
      ) CovidDeaths
 Where location IN ( 
                    Select 
-				        TOP 10 location 
-	               from PortfolioProject..CovidDeaths
+			TOP 10 location 
+	           from PortfolioProject..CovidDeaths
                    Where continent is not null
                    Group by location
 	               ORDER BY SUM(new_cases) DESC
@@ -179,22 +179,22 @@ GO
 CREATE VIEW VW_Evolution_cases_deaths_people_vaccinated_Jan_Apr AS
 Select 
       location, 
-	  year_month, 
-	  SUM(new_cases) as total_new_cases, 
-	  SUM(new_deaths) as total_new_deaths, 
+      year_month, 
+      SUM(new_cases) as total_new_cases, 
+      SUM(new_deaths) as total_new_deaths, 
       SUM(new_people_vaccinated) as total_new_people_vaccinated
 From (
       Select 
-	        D.location as location, 
-			format(D.date, 'yy-MM') as year_month, 
-			SUM(D.new_cases) as new_cases, 
-			SUM(D.new_deaths) as new_deaths,
-			V.people_vaccinated as Running_total_people_vaccinated,
+	    D.location as location, 
+	    format(D.date, 'yy-MM') as year_month, 
+	    SUM(D.new_cases) as new_cases, 
+	    SUM(D.new_deaths) as new_deaths,
+	    V.people_vaccinated as Running_total_people_vaccinated,
             ABS((V.people_vaccinated - LAG(V.people_vaccinated) OVER (Partition by format(D.date, 'yy-MM') ORDER BY format(D.date, 'yy-MM')))) as new_people_vaccinated
 	                                -- LAG retrieves the value from the previous month in column V.people_vaccinated to calculate how many new people were vaccinated.
 	                                -- Since V.people_vaccinated column is a cumulative total, we subtract the previous month's value from the current one to get the number of new people vaccinated for that month.
 	                                -- ABS ensures the result is positive, avoiding any negative values from the difference.
-	  From PortfolioProject..CovidDeaths D
+      From PortfolioProject..CovidDeaths D
       JOIN PortfolioProject..CovidVaccinations V ON D.location = V.location AND D.date = V.date
       Where D.continent is not null
       GROUP BY D.location, format(D.date, 'yy-MM'), V.people_vaccinated
@@ -203,11 +203,11 @@ From (
 	  ) CovidDeaths   
  Where location IN (
                      Select 
-					      TOP 10 location 
-	                 from PortfolioProject..CovidDeaths
+			  TOP 10 location 
+	             from PortfolioProject..CovidDeaths
                      Where continent is not null
-					 Group by location
-					 ORDER BY SUM(new_cases) DESC  
+		     Group by location
+		     ORDER BY SUM(new_cases) DESC  
                    )
 GROUP BY location, year_month
 ORDER BY location, year_month;                             -- The ORDER BY clause is omitted the first time the view is executed.
@@ -233,14 +233,15 @@ ORDER BY location, year_month;
 DROP VIEW IF EXISTS VW_Percentage_inc_dec_new_people_vaccinated_new_deaths_new_cases
 GO
 CREATE VIEW VW_Percentage_inc_dec_new_people_vaccinated_new_deaths_new_cases AS
-Select location, 
-	   ROUND(SUM(percentage_change_new_cases), 2) as percentage_change_cases,
-	   ROUND(SUM(percentage_change_deaths), 2) as percentage_change_deaths,
-	   ROUND(SUM(percentage_change_vaccinated), 2) as percentage_change_vaccinated
+Select 
+      location, 
+      ROUND(SUM(percentage_change_new_cases), 2) as percentage_change_cases,
+      ROUND(SUM(percentage_change_deaths), 2) as percentage_change_deaths,
+      ROUND(SUM(percentage_change_vaccinated), 2) as percentage_change_vaccinated
 FROM (
 Select location, 
        year_month, 
-	   total_new_cases,
+       total_new_cases,
        CASE
            WHEN LAG(total_new_cases) OVER (partition by location ORDER BY year_month) = 0
 	            OR
@@ -258,7 +259,7 @@ Select location,
 			         LAG(total_new_deaths) OVER (Partition by location ORDER BY year_month) * 100, 2) END AS percentage_change_deaths,  -- Calculating Percentage change of new deaths
 	   total_new_people_vaccinated,
 	   CASE
-          WHEN LAG(total_new_people_vaccinated) OVER (partition by location ORDER BY year_month) = 0
+           WHEN LAG(total_new_people_vaccinated) OVER (partition by location ORDER BY year_month) = 0
 	           OR
 	           LAG(total_new_people_vaccinated) OVER (partition by location ORDER BY year_month) is NULL
 		       THEN NULL 
@@ -293,7 +294,7 @@ SELECT DISTINCT
     t.location,
     c.population,
     SUM(t.total_new_people_vaccinated) as total_new_people_vaccinated,
-	ROUND((population - SUM(t.total_new_people_vaccinated)) / population * 100, 2) as percentage_population_nonvaccinated,
+    ROUND((population - SUM(t.total_new_people_vaccinated)) / population * 100, 2) as percentage_population_nonvaccinated,
     ROUND(SUM(t.total_new_people_vaccinated) / population * 100, 2) as percentage_population_vaccinated
 FROM VW_Evolution_cases_deaths_people_vaccinated_Jan_Apr t
 JOIN (
