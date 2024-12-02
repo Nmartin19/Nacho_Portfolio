@@ -266,7 +266,7 @@ QUERY: Lines 177 - 215
 
 Q6:-- How did the percentage change in newly vaccinated people compare to percentage changes in new cases and deaths by country (December 2020 - April 2021)?
 
-QUERY: Lines 233 - 272
+QUERY: Lines 233 - 273
 
     * The analysis from December 2020 to April 2021 reveals two distinct vaccination impact patterns across countries. 
 
