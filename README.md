@@ -298,7 +298,7 @@ QUERY: Lines 233 - 273
 
 Q7.-- What are the total numbers and percentages of vaccinated versus unvaccinated populations in the top 10 countries?
 
-Query: Lines 290 - 307
+Query: Lines 290 - 305
 
     • The United States leads vaccinations (67.7%, 224M people), followed by UK (56.39%, 38.2M) 
 
