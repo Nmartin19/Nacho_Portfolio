@@ -1,3 +1,9 @@
+
+<p align="center">
+<img src="https://github.com/Nmartin19/github-resources/blob/main/covid19_data_analysis_banner..png" alt="COVID-19 Data Analysis Banner" width="100%"/>
+</p>
+
+
 # 🦠 Exploratory Data Analysis (EDA) on COVID-19 World Trends
 
 
