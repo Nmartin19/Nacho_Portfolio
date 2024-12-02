@@ -12,8 +12,7 @@ This analysis explores how vaccination programs influenced case and death rates 
 <p align="left">
 <img src="https://img.icons8.com/color/48/000000/microsoft-sql-server.png" alt="SQL Server & SSMS" width="45" height="45"/>
 <img src="https://upload.wikimedia.org/wikipedia/commons/3/34/Microsoft_Office_Excel_%282019%E2%80%93present%29.svg" alt="Excel" width="45" height="45"/>
-<img src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" alt="Git" width="45" height="45"/>
-</p>
+
 
 
 ## 📌 Table of Contents
