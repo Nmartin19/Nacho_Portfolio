@@ -75,11 +75,11 @@ This project performs an Exploratory Data Analysis (EDA) on global COVID-19 tren
 
   - **COVIDdeaths.xlsx** (85,172 rows): COVID-19 deaths data
 
-  - https://github.com/tu-usuario/tu-proyecto/blob/main/datasets/CovidDeaths.xlsx
+  - [CovidDeaths](https://github.com/tu-usuario/tu-proyecto/blob/main/datasets/CovidDeaths.xlsx)
 
   - **COVIDvaccinations.xlsx** (85,172 rows): Vaccination administration data
 
-  - https://github.com/tu-usuario/tu-proyecto/blob/main/datasets/CovidVaccinations.xlsx
+  - [CovidVaccinations](https://github.com/tu-usuario/tu-proyecto/blob/main/datasets/CovidVaccinations.xlsx)
 
 
 ### ⚙️ Processing Steps:
