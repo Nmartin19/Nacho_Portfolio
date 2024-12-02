@@ -73,13 +73,9 @@ This project performs an Exploratory Data Analysis (EDA) on global COVID-19 tren
 
 * The dataset was split into two Excel files for efficient analysis:
 
-  - **COVIDdeaths.xlsx** (85,172 rows): COVID-19 deaths data
+  - [COVIDdeaths.xlsx](https://github.com/Nmartin19/Covid19-EDA-Global-Trends/blob/main/Datasets/CovidDeaths.xlsx) (85,172 rows): COVID-19 deaths data
 
-  - [CovidDeaths](https://github.com/Nmartin19/Covid19-EDA-Global-Trends/blob/main/Datasets/CovidDeaths.xlsx)
-
-  - **COVIDvaccinations.xlsx** (85,172 rows): Vaccination administration data
-
-  - [CovidVaccinations](https://github.com/Nmartin19/Covid19-EDA-Global-Trends/blob/main/Datasets/CovidVaccinations.xlsx)
+  - [COVIDvaccinations.xlsx](https://github.com/Nmartin19/Covid19-EDA-Global-Trends/blob/main/Datasets/CovidVaccinations.xlsx) (85,172 rows): Vaccination administration data
 
 
 ### ⚙️ Processing Steps:
