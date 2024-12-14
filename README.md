@@ -7,8 +7,7 @@
 
 ## 📊 Quick Overview
 
-Comprehensive analysis of global COVID-19 trends focusing on the top 10 most affected countries. The project analyzes cases, deaths, and vaccination patterns to identify key insights using SQL and Excel. 
-This analysis explores how vaccination programs influenced case and death rates across different countries during the pandemic.
+Comprehensive analysis of global COVID-19 trends focusing on the top 10 most affected countries by number of total cases. The project analyzes cases, deaths, and vaccination patterns to identify key insights using SQL and Excel. This analysis explores how vaccination programs influenced case and death rates across different countries during the pandemic.
 
 
 ## 🛠️ Technologies Used
