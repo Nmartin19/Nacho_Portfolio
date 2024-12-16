@@ -397,11 +397,11 @@ Query: Lines 290 - 307
 
 ## Usage Rights and Restrictions
 
-  This project is protected by copyright and has specific usage restrictions. In brief:
+  This project is licensed under a modified MIT License. In brief:
 
-  - Visualizations may be viewed and downloaded for personal or academic use, but not modified without permission.
-  - The SQL file is available for review but not for direct implementation without explicit authorization.
-  - Datasets are publicly accessible but should be cited if used.
+  - You are free to use, copy, modify, and distribute this software, subject to certain conditions.
+  - Attribution is required.
+  - Specific guidelines apply to the use of visualizations, SQL code, and datasets.
 
   For full details on usage rights and restrictions, please refer to the [LICENSE.md](LICENSE.md) file in this repository.
 
