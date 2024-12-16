@@ -390,7 +390,7 @@ Query: Lines 290 - 307
 
 ## 📈 Visualizations
 
-  > 📁 () 
+  [📊 Dashboard and charts](./Visualizations/Dashboard%20and%20charts.xlsx)
 
 
 ## 👨‍💻 About Me
