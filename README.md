@@ -390,8 +390,9 @@ Query: Lines 290 - 307
 
 ## 📈 Visualizations
 
-  [📊 Dashboard and charts](./Visualizations/Dashboard%20and%20charts.xlsx)
+   [📊 Dashboard](./Visualizations/Dashboard_Covid19_Global_Trends.png)
 
+   [📊 Dashboard and charts_excel_files](./Visualizations/Dashboard%20and%20charts.xlsx)
 
 ## 👨‍💻 About Me
 
