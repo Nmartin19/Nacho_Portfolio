@@ -394,30 +394,16 @@ Query: Lines 290 - 307
 
    [📊 Dashboard and charts_excel_files](./Visualizations/Dashboard%20and%20charts.xlsx)
 
+
 ## Usage Rights and Restrictions
 
-  This repository contains analysis, visualizations, and SQL code related to COVID-19. Please read the following usage guidelines carefully:
+  This project is protected by copyright and has specific usage restrictions. In brief:
 
-### Visualizations and Charts
+  - Visualizations may be viewed and downloaded for personal or academic use, but not modified without permission.
+  - The SQL file is available for review but not for direct implementation without explicit authorization.
+  - Datasets are publicly accessible but should be cited if used.
 
-  - You may view and download the visualizations and charts for personal or academic use.
-  - Modifying or altering these graphics without express authorization is not permitted.
-  - If you wish to use these visualizations in any publication or project, please contact the author for permission.
-
-### SQL File
-
-  - The provided SQL file contains original code and is protected by copyright.
-  - While it may be technically downloadable, its use, execution, or incorporation into other projects without explicit permission from the author is not authorized.
-  - The code is available for review and educational purposes, but not for direct implementation.
-
-### Datasets
-
-  - The included datasets are publicly accessible and can be freely downloaded.
-  - It is recommended to cite the original source of the data if used in other projects.
-
-If you have any questions about the permitted use of these resources, especially regarding the SQL code, please open an issue in this repository or contact the author directly.
-
-Your respect for these guidelines and the work done in this project is appreciated.
+  For full details on usage rights and restrictions, please refer to the [LICENSE.md](LICENSE.md) file in this repository.
 
 
 ## 👨‍💻 About Me
