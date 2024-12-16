@@ -390,7 +390,7 @@ Query: Lines 290 - 307
 
 ## 📈 Visualizations
 
-  > 📁 [View complete SQL code here](/covid19_analysis_queries.sql) 
+  > 📁 () 
 
 
 ## 👨‍💻 About Me
