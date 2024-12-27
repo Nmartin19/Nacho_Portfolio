@@ -2,12 +2,12 @@
 <img src="https://raw.githubusercontent.com/Nmartin19/github-resources/main/covid19_data_analysis_banner..png" alt="COVID-19 Data Analysis Banner" width="100%"/>
 </p>
 
-#  Exploratory Data Analysis (EDA) on COVID-19 World Trends
+#  COVID-19 Global Trends: EDA analysis
 
 
 ## 📊 Quick Overview
 
-Comprehensive analysis of global COVID-19 trends focusing on the top 10 most affected countries by number of total cases. The project analyzes cases, deaths, and vaccination patterns to identify key insights using SQL and Excel. This analysis explores how vaccination programs influenced case and death rates across different countries during the pandemic.
+Exploratory data analysis (EDA) of global COVID-19 trends focusing on the top 10 most affected countries by total case numbers. The project utilizes SQL and Excel to analyze cases, deaths, and vaccination patterns to identify key insights. This analysis explores how vaccination programs influenced case and death rates in the top 10 countries from January 2020 to April 2021, providing valuable insights into the pandemic's impact and response effectiveness.
 
 
 ## 🛠️ Technologies Used
