@@ -138,7 +138,7 @@ This project performs an Exploratory Data Analysis (EDA) on global COVID-19 tren
 
     Q4. How have the monthly averages of total confirmed cases and deaths evolved from January 2020 to April 2021 in the top 10 most affected countries?
 
-    Q5. What trends are observed in new cases and deaths from January 2020 to April 2021, and how do they align with the vaccine rollout timeline?
+    Q5. What trends emerged in new cases and new deaths during the vaccination period (December 2020 - April 2021)?
 
     Q6. How did the percentage change in newly vaccinated people compare to percentage changes in new cases and deaths by country (December 2020 - April 2021)?
 
@@ -233,7 +233,7 @@ QUERY: Lines 130 - 158
 
 
 
-Q5.-- What trends are observed in new cases and deaths from January 2020 to April 2021, and how do they align with the vaccine rollout timeline?
+Q5.-- What trends emerged in new cases and new deaths during the vaccination period (December 2020 - April 2021)?
 
 QUERY: Lines 177 - 215
 
