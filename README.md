@@ -220,7 +220,7 @@ QUERY: Lines 130 - 158
         • Some countries, including Italy, France, and India showed peaks in November 2020, before experiencing a decrease in subsequent months.
 
 
-    - A third wave emerged in March and April 2021 in most countries. 
+    - A third wave emerged in March and April 2021. 
 
         • Brazil recorded its highest monthly averages during this period, with 70,887 cases in March and 2,742 deaths in April 2021. 
 
