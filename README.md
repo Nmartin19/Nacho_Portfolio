@@ -208,12 +208,12 @@ QUERY: Lines 130 - 158
 
      - The first wave began in March and April 2020, followed by a summer decline in most regions. 
 
-        • However, the United States and India showed different patterns, with cases continuing to rise during the summer months. 
+        • However, the United States and India showed different patterns in their monthly averages, with cases continuing to rise during the summer months. 
   
-        • The U.S. experienced a brief decline in August and September 2020, while India saw a continuous increase throughout the summer, peaking in September. India's cases then declined from October 2020 until March 2021, when they surged again.
+        • The U.S. experienced a brief decline in August and September 2020, while India saw a continuous increase throughout the summer, peaking in September, then declining from October 2020 until March 2021.
 
 
-    - The second, more severe wave began in October 2020, reaching its peak in December 2020 and January 2021. 
+    - The second, more severe wave began in October 2020, with monthly averages peaking in December 2020 and January 2021. 
 
         • During this period, the U.S., United Kingdom, Brazil, Turkey, Russia, Spain, and Germany experienced their highest monthly averages of both cases and deaths. 
 
@@ -224,12 +224,12 @@ QUERY: Lines 130 - 158
 
         • Brazil recorded its highest monthly averages during this period, with 70,887 cases in March and 2,742 deaths in April 2021. 
 
-        • India similarly saw both metrics peak in April 2021, reporting 231,443 cases and 1,630 deaths. 
+        • India's monthly averages peaked in April 2021 with 231,443 cases and 1,630 deaths. 
 
-        • Italy and France also experienced peaks in both cases and deaths in March and April 2021, with Germany and Turkey, also showed comparable trends.
+        • Italy and France also saw peak monthly averages during this period, with Germany and Turkey, showing comparable trends.
 
 
-    * Russia, Spain, the United Kingdom, and the United States showed a progressive decrease in monthly averages from the beginning of 2021 through April, suggesting they did not experience this third wave durig March-April 2021. 
+    * Russia, Spain, the United Kingdom, and the United States showed decreasing monthly averages from early 2021 through April, avoiding this third wave. 
 
 
 
