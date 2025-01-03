@@ -260,7 +260,7 @@ QUERY: Lines 177 - 215
 
 Q6:-- How did the percentage change in newly vaccinated people compare to percentage changes in new cases and deaths by country (December 2020 - April 2021)?
 
-QUERY: Lines 233 - 273
+QUERY: Lines 233 - 272
 
     • Western nations demonstrated successful vaccination campaigns with varying but positive outcomes.
     
