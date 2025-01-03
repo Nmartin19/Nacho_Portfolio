@@ -249,6 +249,7 @@ QUERY: Lines 177 - 215
     - Notable exceptions emerged in several countries. 
 
        • Concerning patterns were observed in Brazil, India, and Turkey, where despite ongoing vaccination efforts, outcomes were less favorable, suggesting impacts from healthcare capacity limitations and the presence of new virus variants.
+       
 
     - Vaccination success varied by country:
 
@@ -262,6 +263,7 @@ Q6:-- How did the percentage change in newly vaccinated people compare to percen
 QUERY: Lines 233 - 273
 
     • Western nations demonstrated successful vaccination campaigns with varying but positive outcomes.
+    
     • The United States achieved striking results:
 
       • Increased vaccinations by 1096%
