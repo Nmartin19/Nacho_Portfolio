@@ -167,7 +167,7 @@ ORDER BY location, year_month
 
 
 
---Q5.-- What trends are observed in new cases and new deaths from January 2020 to April 2021, and how do they align with the vaccine rollout timeline?
+--Q5.-- What trends emerged in new cases and new deaths during the vaccination period (December 2020 - April 2021)?
 
 -- This query provides the total number of new cases, new deaths, and newly vaccinated individuals per Month from January 2020 to April 2021
 -- Column new_people_vaccinated is calculated as it was not included in the original dataset.
