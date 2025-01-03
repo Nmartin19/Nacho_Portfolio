@@ -267,33 +267,43 @@ QUERY: Lines 233 - 273
     • The United States achieved striking results:
 
       • Increased vaccinations by 1096%
+      
       • Reduced deaths by 92%
+      
       • Reduced cases by 85%
 
     • The United Kingdom achieved remarkable reductions:
 
       • 87% decrease in deaths
+      
       • 128% decrease in cases
+      
       • With just a 2.85% vaccination increase, demonstrating the effectiveness of their public health measures
 
     • India and Brazil, countries with massive populations, faced particularly challenging outcomes:
 
       • Showed increases in both cases and deaths despite vaccination efforts
+      
       • Turkey showed similar concerning trends
 
 
     • Factors influencing these results:
 
       • Healthcare infrastructure limitations
+      
       • Limited access to vaccine stock relative to population needs (as most vaccine patents and production were concentrated in Western nations)
+      
       • Emergence of more virulent variants
 
 
     • The contrasting patterns between Western and non-Western nations reflect:
 
       • Potential inequalities in vaccine distribution
+      
       • Ineffective implementation strategies
+      
       • Varying public health measures
+      
       • Geographical and population challenges 
 
 
@@ -309,11 +319,13 @@ Query: Lines 290 - 307
     • Highly populous nations like India, Russia, and Brazil struggled to vaccinate even 14% of their population, facing surges in cases and deaths due to:
 
       • Infrastructure challenges
+      
       • Insufficient vaccine supply
 
     • These divergent outcomes underscore the critical need to address global inequities in:
 
       • Vaccine access
+      
       • Vaccine administration
 
     • This requires more equitable and collaborative public health strategies globally.
