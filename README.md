@@ -168,7 +168,7 @@ QUERY: lines 32-46
 
 Q2.--  What are the top 10 countries with the highest number of confirmed cases and deaths, both in absolute terms and relative to population size?
 
-QUERY: lines 65-89
+QUERY: lines 65-83
 
     • Countries leading in absolute numbers don't necessarily show the highest rates when adjusted for population size.
 
