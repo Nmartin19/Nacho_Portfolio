@@ -300,7 +300,7 @@ QUERY: Lines 233 - 272
 
 Q7.-- What are the total numbers and percentages of vaccinated versus unvaccinated populations in the top 10 countries?
 
-Query: Lines 290 - 307
+Query: Lines 289 - 306
 
     • The United States and the United Kingdom vaccinated high percentages of their populations, enabling significant declines in COVID-19 deaths.
     
