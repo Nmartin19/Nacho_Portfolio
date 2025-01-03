@@ -394,6 +394,7 @@ Query: Lines 290 - 307
 ## 👨‍💻 About Me
 
 Data Analyst passionate about uncovering insights through data analysis. Looking to collaborate on data analysis projects in SaaS, gaming, or healthcare sectors.
+For a more comprehensive narrative overview of the project and my background and experience, please visit my portfolio website at  [https://nmartinviveros.wixsite.com/nmartin/my-blog]
 
 
 ### 🔗 Contact/collaborations
