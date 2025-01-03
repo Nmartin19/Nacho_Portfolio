@@ -239,19 +239,16 @@ QUERY: Lines 177 - 215
 
     - Western nations (except Italy) demonstrated a clear pattern: as vaccination rates increased, monthly deaths decreased. 
 
-       • This trend was particularly evident in France, Germany, Spain, UK and US, where vaccination programs coincided with declining new monthly deaths, despite varying infection levels. 
+       • The United Kingdom and United States saw remarkable progress, vaccinating millions and dramatically reducing monthly deaths.
 
-       • France presents a particular interesting case, where the increase in new people vaccinated coincided with a decrease in deaths, despite a significant increase in new confirmed cases. 
+       • France and Germany had some success in decreasing deaths, despite fluctuations in case numbers. 
 
-       • The case of westerns nations, and especially France, demonstrates the positive effect of vaccine administration in reducing mortality among confirmed cases. 
+       • Italy and Spain experienced mixed results, with temporary increases in deaths before an overall decrease
 
 
     - Notable exceptions emerged in several countries. 
 
-       • Italy, deviated from the trend observed in other Western European countries, experiencing an increase in deaths from 9,183 to 11,647 between February and March 2021. 
-
-       • Additionally, concerning patterns were observed in Brazil, India, and Turkey, where despite ongoing vaccination efforts, outcomes were less favorable, suggesting impacts from healthcare capacity limitations and the presence of virus variants.
-
+       • Concerning patterns were observed in Brazil, India, and Turkey, where despite ongoing vaccination efforts, outcomes were less favorable, suggesting impacts from healthcare capacity limitations and the presence of new virus variants.
 
     - Vaccination success varied by country:
 
@@ -259,39 +256,43 @@ QUERY: Lines 177 - 215
 
        • Results differed based on healthcare infrastructure and timing
 
-    *Note: These patterns are observational and would require statistical analysis to establish definitive causation.*
-
-
 
 Q6:-- How did the percentage change in newly vaccinated people compare to percentage changes in new cases and deaths by country (December 2020 - April 2021)?
 
 QUERY: Lines 233 - 273
 
-    * The analysis from December 2020 to April 2021 reveals two distinct vaccination impact patterns across countries. 
+    • Western nations demonstrated successful vaccination campaigns with varying but positive outcomes.
+    • The United States achieved striking results:
 
-      - Several nations showed clear vaccination success: 
+      • Increased vaccinations by 1096%
+      • Reduced deaths by 92%
+      • Reduced cases by 85%
 
-        • France reduced deaths by 28% despite rising cases (+109%), while implementing a substantial vaccination campaign (+484000%).
- 
-        • Germany reduced deaths by 57% despite 34% increase in confirmed cases during its vaccination campaign (+1271% new people vaccinated). 
+    • The United Kingdom achieved remarkable reductions:
 
-        • Similarly, the United States and United Kingdom achieved significant decreases in both cases and deaths alongside successful vaccination programs.
+      • 87% decrease in deaths
+      • 128% decrease in cases
+      • With just a 2.85% vaccination increase, demonstrating the effectiveness of their public health measures
 
+    • India and Brazil, countries with massive populations, faced particularly challenging outcomes:
 
-     - However, some countries faced different outcomes:
-
-        • India experienced dramatic increases across all metrics, with cases rising by 672% and deaths by 756%, despite vaccination growth of 735%. 
-
-        • Brazil and Turkey showed similar trends, with both countries seeing increases in cases and deaths despite significant vaccination progress.
+      • Showed increases in both cases and deaths despite vaccination efforts
+      • Turkey showed similar concerning trends
 
 
-    * - Vaccination effectiveness varied by country, influenced by:
+    • Factors influencing these results:
 
-       • Healthcare capacity
+      • Healthcare infrastructure limitations
+      • Limited access to vaccine stock relative to population needs (as most vaccine patents and production were concentrated in Western nations)
+      • Emergence of more virulent variants
 
-       • Public health measures
 
-       • Local conditions
+    • The contrasting patterns between Western and non-Western nations reflect:
+
+      • Potential inequalities in vaccine distribution
+      • Ineffective implementation strategies
+      • Varying public health measures
+      • Geographical and population challenges 
 
 
 
@@ -299,76 +300,60 @@ Q7.-- What are the total numbers and percentages of vaccinated versus unvaccinat
 
 Query: Lines 290 - 307
 
-    • The United States leads vaccinations (67.7%, 224M people), followed by UK (56.39%, 38.2M) 
+    • The United States and the United Kingdom vaccinated high percentages of their populations, enabling significant declines in COVID-19 deaths.
+    
+    • In contrast, many European countries exhibited more moderate vaccination coverage but still managed to reduce mortality, likely aided by effective policies and the lack of emergence of new variants at the time.
+    
+    • Highly populous nations like India, Russia, and Brazil struggled to vaccinate even 14% of their population, facing surges in cases and deaths due to:
 
-    • European vaccination rates: Italy (40.0%), Germany (31.27%), France (27.17%), Spain (24.32%), Turkey (22.82%). 
+      • Infrastructure challenges
+      • Insufficient vaccine supply
 
-    • In contrast, highly populous countries show significantly lower vaccination coverage. 
+    • These divergent outcomes underscore the critical need to address global inequities in:
 
-    • India has vaccinated 133.6 million people, representing only 9.68% of its 1.38 billion population. 
+      • Vaccine access
+      • Vaccine administration
 
-    • Similarly, Russia and Brazil report low vaccination rates of 8.3% and 13.12% respectively.
-
-    • Significant global inequalities in vaccine distribution and administration: 
-
-    - Unvaccinated population contrast: U.S. (32.3%) vs Russia (91.7%) and India (90.32%)
-
-    *Note: Data includes both partial and complete vaccination schedules
+    • This requires more equitable and collaborative public health strategies globally.
 
 
 
 ## 📊 Conclusions <a name="conclusions"></a>
 
-
-1 The analysis reveals a clear division between Western and developing nations in their COVID-19 response effectiveness. 
-
-     • Western nations like the U.S. and UK achieved success in vaccination campaigns and death reduction.
-
-     • In contrast, populous nations like India and Brazil struggled despite significant vaccination efforts.
-
-
-2 Vaccination rate disparities highlight this divide:
-
-     • India and Russia: Over 90% of population unvaccinated
-
-     • United States: Only 32.3% unvaccinated
-
-
-3 Healthcare infrastructure emerged as a critical factor. Nations with robust healthcare systems managed better outcomes even with high case numbers.
-
-     • Highest Case Fatality Rates: Italy, UK, and Brazil. Suggests varying healthcare response capabilities
-
-
-4 Population size didn't always correlate with virus incidence:
-
-     • Smaller countries like Andorra and San Marino showed higher infection percentages
-
-     • The United States was a notable exception among large countries
-
-
-5 The pandemic evolved through three distinct waves, with varying regional impacts:
-
-     • Western nations generally controlled their third wave through vaccination (March-April 2021)
-
-     • India and Brazil faced peak numbers during the same period.
-
-     • This temporal pattern, combined with vaccination data, revealed that successful outcomes required both high vaccination rates and strong healthcare systems, as demonstrated by France's 28% reduction in deaths despite rising cases.
+    • Variations in COVID-19 mortality across countries suggest factors beyond just healthcare capacity, such as demographics and reporting, significantly impact outcomes.
+    
+    • The U.S. was the nation most severely affected, with the highest case count and infection rate.
+    
+    • The pandemic unfolded in three distinct waves, with the second wave in late 2020 being the most severe globally.
+    
+    • Early vaccine access in Western nations like the U.S. and UK proved crucial in reducing deaths before variant emergence, though did not fully stop virus transmission.
+    
+    • Global inequities in vaccine distribution and healthcare infrastructure capacity posed major challenges in coordinating an effective worldwide pandemic response.
+    
+    • Factors like variant emergence, delayed vaccine supply, and implementation issues contributed to high death rates despite rising vaccinations in some countries.
 
 
 
 ## 💡 Data-Driven Recommendations <a name="recommendations"></a>
 
+    • Strengthen standardized international COVID-19 data tracking to enable robust cross-country analysis.
+    
+    • Enhance real-time monitoring systems using benchmarks from successful countries for early interventions.
+    
+    • Refine resource distribution protocols based on a composite index of population, healthcare capacity, and mortality rates.
+    
+    • Develop more robust metrics to effectively track pandemic response, accounting for vaccination, mortality reduction, and healthcare capacity.
+    
+    • Accelerate predictive risk models combining population, healthcare, and epidemiological data to proactively identify vulnerable regions.
+    
+    • Require comprehensive reporting on vaccination strategy implementation and lessons learned.
+    
+    • Increase investment in capacity building for health systems in low/middle-income countries.
+    
+    • Allocate funding for collaborative research on sociodemographic impacts on COVID-19 mortality disparities.
+    
 
-    • Set up real-time alert systems monitoring both absolute numbers and population-adjusted rates (cases/population), using historical data from successful countries as benchmark thresholds for early intervention.
-
-    • Prioritize resource distribution (vaccines, medical supplies, personnel) based on a composite index combining population density, healthcare infrastructure capacity, and current Case Fatality Rates.
-
-    • Track pandemic response effectiveness using a combined metric of vaccination rates, death reduction, and healthcare system capacity, using successful cases like France (28% death reduction despite rising cases) as benchmarks.
-
-    • Develop predictive risk models combining population metrics, healthcare capacity, and epidemiological data to identify vulnerable regions before they reach critical levels
-
-
-
+ 
 ## 🔄 Limitations & Future Scope <a name="limitations"></a>
 
 
@@ -408,7 +393,7 @@ Query: Lines 290 - 307
 
 ## 👨‍💻 About Me
 
-Junior Data Analyst passionate about uncovering insights through data analysis. Looking to collaborate on data analysis projects in SaaS, gaming, or healthcare sectors.
+Data Analyst passionate about uncovering insights through data analysis. Looking to collaborate on data analysis projects in SaaS, gaming, or healthcare sectors.
 
 
 ### 🔗 Contact/collaborations
