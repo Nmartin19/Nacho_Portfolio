@@ -168,7 +168,7 @@ QUERY: lines 32-46
 
 Q2.--  What are the top 10 countries with the highest number of confirmed cases and deaths, both in absolute terms and relative to population size?
 
-QUERY: lines 65-83
+QUERY: lines 65-89
 
     • Countries leading in absolute numbers don't necessarily show the highest rates when adjusted for population size.
 
@@ -260,7 +260,7 @@ QUERY: Lines 177 - 215
 
 Q6:-- How did the percentage change in newly vaccinated people compare to percentage changes in new cases and deaths by country (December 2020 - April 2021)?
 
-QUERY: Lines 233 - 272
+QUERY: Lines 233 - 273
 
     • Western nations demonstrated successful vaccination campaigns with varying but positive outcomes.
     
@@ -300,7 +300,7 @@ QUERY: Lines 233 - 272
 
 Q7.-- What are the total numbers and percentages of vaccinated versus unvaccinated populations in the top 10 countries?
 
-Query: Lines 289 - 306
+Query: Lines 290 - 307
 
     • The United States and the United Kingdom vaccinated high percentages of their populations, enabling significant declines in COVID-19 deaths.
     
