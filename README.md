@@ -139,7 +139,7 @@ This project performs an Exploratory Data Analysis (EDA) on global COVID-19 tren
 
 - Creation data model - relationship between different tables
 
-- Creation pivot tables and dynamic charts within data model and creation dashboard
+- Creation pivot tables, data segmentations and dynamic charts within data model and creation dashboard
 
 
 ## 📖 Data Dictionary <a name="data-dictionary"></a>
