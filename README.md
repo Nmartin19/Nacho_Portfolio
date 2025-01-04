@@ -20,7 +20,7 @@ Exploratory data analysis (EDA) of global COVID-19 trends focusing on the top 10
 ### SQL Server & SSMS
 
 - Data type optimization and conversion
-- Aggregation functions (SUM, AVG, ROUND)
+- Aggregate functions (SUM, AVG, ROUND)
 - GROUP BY with multiple dimensions
 - JOINs for data integration
 - Advanced filtering with HAVING clause
