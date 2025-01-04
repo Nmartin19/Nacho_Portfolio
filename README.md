@@ -101,7 +101,7 @@ This project performs an Exploratory Data Analysis (EDA) on global COVID-19 tren
   - [COVIDvaccinations.xlsx](https://github.com/Nmartin19/Covid19-EDA-Global-Trends/blob/main/Datasets/CovidVaccinations.xlsx) (85,172 rows): Vaccination administration data
 
 
-### ⚙️ Processing steps
+## ⚙️ Processing Steps
 
 
 - Unnecessary columns removed in excel
