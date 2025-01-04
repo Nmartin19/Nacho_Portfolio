@@ -34,31 +34,13 @@ Exploratory data analysis (EDA) of global COVID-19 trends focusing on the top 10
 - Cross-table data relationships
 
 
-### Excel Modern Stack
+### Excel
 
-- Power Query:
+- Power Query
+- Power Pivot
+- Pivot tables & Pivot charts
+- Dynamic dashboard development
   
-      * Data import from SQL views
-      * Loading in Excel sheets
-   
-- Power Pivot:
-  
-      * Data modeling with multiple tables relationships
-      * DAX formulas for date formatting
-      * Integration of multiple data sources
-   
-- Data Modeling:
-  
-      * Cross-table relationships
-      * PivotTables within data model
-      * Cross-filtering data segmentation
-   
-- Interactive Dashboard:
-  
-      * Dynamic PivotCharts
-      * Data slicers with cross-filtering
-      * KPI cards and metrics
-      * Professional design hierarchy
   
 
 ## 📌 Table of Contents
@@ -130,16 +112,31 @@ This project performs an Exploratory Data Analysis (EDA) on global COVID-19 tren
 - Data types optimized for analysis
 
 - No extensive cleaning required
+  
 
-- Export SQL views to Power query (Excel)
+## 🔄 ETL Process & Implementation
 
-- No transformation required
-
-- load in Power Pivot for data modeling
-
-- Creation data model - relationship between different tables
-
-- Creation pivot tables, data segmentations and dynamic charts within data model and creation dashboard
+- Power Query:
+  
+      * Extracting (importing) the SQL views, enabling efficient data refresh and integration
+      * This ETL process streamlined the connection between SQL Server and Excel.
+   
+- Power Pivot:
+  
+      * For creating a relational data model, establishing connections between multiple tables and data sources.
+      * This enables robust analysis and the creation of dynamic metrics across different data tables.
+   
+- Data Modeling:
+  
+      * Data modeling allowed establishing relationships between different data sources (SQL outputs & tables) that allowed effective data segmentation
+      * DAX formulas were used for specific temporal field formatting, ensuring proper date-based segmentation in excel (e.g., transforming dates into YY-MM format for consistent filtering). 
+   
+- Interactive Dashboard:
+  
+      * The interactive dashboard was built using Pivot tables and Pivot charts linked to the data model
+      * Data slicers enabling cross-filtering between different visualizations
+      * KPI cards and metrics
+      * The final result is a professional, interactive dashboard that allows users to explore COVID-19 data dynamically 
 
 
 ## 📖 Data Dictionary <a name="data-dictionary"></a>
