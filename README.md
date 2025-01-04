@@ -21,15 +21,14 @@ Exploratory data analysis (EDA) of global COVID-19 trends focusing on the top 10
 
 - Data type optimization and conversion
 - Aggregate functions (SUM, AVG, ROUND)
-- GROUP BY with multiple dimensions
-- JOINs for data integration
+- GROUP BY operations with multiple fields
+- JOINs between tables
 - Advanced filtering with HAVING clause
 - Advanced date formatting and manipulation
 - subqueries
 - Window functions (LAG) for temporal analysis
 - Views for modular code organization and reusability
 - NULL handling and edge cases
-- Performance optimization through indexed views
 - Case statements for conditional logic
 - Cross-table data relationships
 
