@@ -39,7 +39,7 @@ Exploratory data analysis (EDA) of global COVID-19 trends focusing on the top 10
 - Power Query:
   
       * Data import from SQL views
-      * Data transformation (very little) and loading
+      * Loading in Excel sheets
    
 - Power Pivot:
   
@@ -133,7 +133,7 @@ This project performs an Exploratory Data Analysis (EDA) on global COVID-19 tren
 
 - Export SQL views to Power query (Excel)
 
-- Transform in Power query
+- No transformation required
 
 - load in Power Pivot for data modeling
 
