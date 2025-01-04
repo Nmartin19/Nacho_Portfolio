@@ -28,7 +28,6 @@ Exploratory data analysis (EDA) of global COVID-19 trends focusing on the top 10
 - subqueries and nested queries
 - Window functions (LAG) for temporal analysis
 - Views for modular code organization and reusability
-- Window functions (LAG) for temporal analysis
 - NULL handling and edge cases
 - Performance optimization through indexed views
 - Case statements for conditional logic
