@@ -392,7 +392,7 @@ Query: Lines 290 - 307
     
     • The pandemic unfolded in three distinct waves, with the second wave in late 2020 being the most severe globally.
     
-    • Early vaccine access in Western nations like the U.S. and UK proved crucial in reducing deaths before variant emergence, though did not fully stop virus transmission.
+    • Early vaccine access in Western nations like the U.S. and UK proved crucial in reducing deaths before variant emergence, though did not stop virus transmission.
     
     • Global inequities in vaccine distribution and healthcare infrastructure capacity posed major challenges in coordinating an effective worldwide pandemic response.
     
