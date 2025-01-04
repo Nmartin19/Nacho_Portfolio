@@ -38,27 +38,28 @@ Exploratory data analysis (EDA) of global COVID-19 trends focusing on the top 10
 
 - Power Query:
   
- * Data import from SQL views
- * Data transformation and loading
+      * Data import from SQL views
+      * Data transformation and loading
    
 - Power Pivot:
   
- * Data modeling with multiple tables relationships
- * DAX formulas for date formatting
- * Integration of multiple data sources
+      * Data modeling with multiple tables relationships
+      * DAX formulas for date formatting
+      * Integration of multiple data sources
    
-- Data Model:
+- Data Modeling:
   
- * Cross-table relationships
- * PivotTables within data model
- * Cross-filtering data segmentation
+      * Cross-table relationships
+      * PivotTables within data model
+      * Cross-filtering data segmentation
    
 - Interactive Dashboard:
   
- * Dynamic PivotCharts
- * Data slicers with cross-filtering
- * KPI cards and metrics
- * Professional design hierarchy
+      * Dynamic PivotCharts
+      * Data slicers with cross-filtering
+      * KPI cards and metrics
+      * Professional design hierarchy
+  
 
 ## 📌 Table of Contents
 
