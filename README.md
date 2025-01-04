@@ -16,7 +16,54 @@ Exploratory data analysis (EDA) of global COVID-19 trends focusing on the top 10
 <img src="https://img.icons8.com/color/48/000000/microsoft-sql-server.png" alt="SQL Server & SSMS" width="45" height="45"/>
 <img src="https://upload.wikimedia.org/wikipedia/commons/3/34/Microsoft_Office_Excel_%282019%E2%80%93present%29.svg" alt="Excel" width="45" height="45"/>
 
+![Microsoft Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
+![SQL Server](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white)
+![Power Pivot](https://img.shields.io/badge/Power_Pivot-217346?style=for-the-badge&logo=microsoft&logoColor=white)
+![Power Query](https://img.shields.io/badge/Power_Query-217346?style=for-the-badge&logo=microsoft&logoColor=white)
 
+### SQL Server & SSMS
+
+- Data type optimization and conversion
+- Aggregation functions (SUM, AVG, ROUND)
+- GROUP BY with multiple dimensions
+- JOINs for data integration
+- Advanced filtering with HAVING clause
+- Advanced date formatting and manipulation
+- subqueries and nested queries
+- Window functions (LAG) for temporal analysis
+- Views for modular code organization and reusability
+- Window functions (LAG) for temporal analysis
+- NULL handling and edge cases
+- Performance optimization through indexed views
+- Case statements for conditional logic
+- Cross-table data relationships
+
+
+### Excel Modern Stack
+
+- Power Query:
+  
+ * Data import from SQL views
+ * Data transformation and loading
+   
+- Power Pivot:
+  
+ * Data modeling with multiple tables relationships
+ * DAX formulas for date formatting
+ * Integration of multiple data sources
+   
+- Data Model:
+  
+ * Cross-table relationships
+ * PivotTables within data model
+ * Cross-filtering data segmentation
+   
+- Interactive Dashboard:
+  
+ * Dynamic PivotCharts
+ * Data slicers with cross-filtering
+ * KPI cards and metrics
+ * Professional design hierarchy
 
 ## 📌 Table of Contents
 
