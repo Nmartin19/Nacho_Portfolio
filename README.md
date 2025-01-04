@@ -131,6 +131,15 @@ This project performs an Exploratory Data Analysis (EDA) on global COVID-19 tren
 
 - No extensive cleaning required
 
+- Export SQL views to Power query (Excel)
+
+- Transform in Power query
+
+- load in Power Pivot for data modeling
+
+- Creation data model - relationship between different tables
+
+- Creation pivot tables and dynamic charts within data model and creation dashboard
 
 
 ## 📖 Data Dictionary <a name="data-dictionary"></a>
