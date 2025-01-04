@@ -25,7 +25,7 @@ Exploratory data analysis (EDA) of global COVID-19 trends focusing on the top 10
 - JOINs for data integration
 - Advanced filtering with HAVING clause
 - Advanced date formatting and manipulation
-- subqueries and nested queries
+- subqueries
 - Window functions (LAG) for temporal analysis
 - Views for modular code organization and reusability
 - NULL handling and edge cases
